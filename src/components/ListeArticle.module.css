@@ -1,0 +1,18 @@
+.tableCss{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.tableMain {
+    background-color: #eeeaea;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.title{
+    font-size: 2em;
+    margin: 20px 0;
+    border-bottom: 2px solid #e0e0e0;
+}

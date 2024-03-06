@@ -13,7 +13,7 @@ function App() {
     <>
       <div className='App m-auto w-50 my-4'>
         <BrowserRouter>
-          <nav className=''>
+          <nav className='d-flex justify-content-center'>
             <Link to="/" className='btn btn-md btn-primary mx-4'>Accueil</Link>
             <Link to="/article"className='btn btn-md btn-secondary mx-4'>Article</Link>
             <Link to="/client"className='btn btn-md btn-danger mx-4'>Client</Link>
