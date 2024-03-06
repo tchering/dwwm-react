@@ -14,9 +14,9 @@ function App() {
       <div className='App m-auto w-50 my-4'>
         <BrowserRouter>
           <nav className=''>
-            <Link to="/">Accueil</Link>
-            <Link to="/article">Article</Link>
-            <Link to="/client">Client</Link>
+            <Link to="/" className='btn btn-md btn-primary mx-4'>Accueil</Link>
+            <Link to="/article"className='btn btn-md btn-secondary mx-4'>Article</Link>
+            <Link to="/client"className='btn btn-md btn-danger mx-4'>Client</Link>
           </nav>
           {/* here <Routes> is a container to include all the route and both are components provided by react-router-dom*/}
           <Routes>
